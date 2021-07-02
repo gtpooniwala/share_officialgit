@@ -1,0 +1,40 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host gcp-personal
+    HostName gaurav-pooniwala.personal.gcp.rephrase.ai
+    User gauravpooniwala
+    # IdentityFile C:\Users\user\.ssh\putty_private_key.ppk
+
+Host gcp-common
+    HostName gpu-common.dev.gcp.rephrase.ai
+    User gauravpooniwala
+    # IdentityFile C:\Users\user\.ssh\putty_private_key.ppk
+    
+
+Host azure-common
+    HostName gpu-common.dev.azure.rephrase.ai
+    User gauravpooniwala
+    IdentityFile C:\Users\user\.ssh\putty_private_key.ppk
+    
+Host azure-personal
+    HostName gaurav-pooniwala.dev.azure.rephrase.ai
+    User gauravpooniwala
+    IdentityFile C:\Users\user\.ssh\putty_private_key.ppk
+
+Host azure-personal2
+    HostName gaurav-pooniwala-2.dev.azure.rephrase.ai
+    User gauravpooniwala
+    IdentityFile C:\Users\user\.ssh\putty_private_key.ppk
+
+Host azure-personal3
+    HostName gaurav-pooniwala-3.dev.azure.rephrase.ai
+    User gauravpooniwala
+    IdentityFile C:\Users\user\.ssh\putty_private_key.ppk
+
+Host azure-personal4
+    HostName gaurav-pooniwala-4.dev.azure.rephrase.ai
+    User gauravpooniwala
+    IdentityFile C:\Users\user\.ssh\putty_private_key.ppk
+
+Host vault.phacility.com
+    HostName vault.phacility.com
+    IdentityFile ~/.ssh/id_rsa_phabricator.key
